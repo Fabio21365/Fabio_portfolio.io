@@ -2,3 +2,23 @@
     width: 60px;
     height: 60px;
 }
+header {
+    background-color: #7c5e99;
+}
+a{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;   
+}
+#button{
+    background-color: #5AC54F;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0px #000;    
+}
