@@ -3,6 +3,11 @@
     height: 60px;
 }
 
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -41,7 +46,7 @@ a:hover {
     transform: scale(1.05);
 }
 
-#button {
+.button {
     background-color: #27ae60;
     padding: 20px;
     box-shadow: 5px 5px 0px #000;
@@ -54,4 +59,128 @@ a:hover {
     text-shadow: 5px 5px 0px #27ae60;
     transform: scale(1.08);
     
+}
+
+#info{
+    display: flex;
+    background-image: url("/assets/background_home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    padding: 40px;
+    border-bottom: 10px solid black;
+    height: 990px;
+}
+
+#info img{
+    width: 600px;
+    height: 800px;
+    margin: auto;
+    border-radius: 2%;
+}
+
+#info_2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+
+}
+
+#quadro {
+    background-color: #2c3e50;
+    width: 700px;
+    height: 120px;
+    color: #ffffff;
+    padding: 20px;  
+    box-shadow: 5px 5px 0px #000;
+    text-align: left;
+    display: inline-block;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-family: "Press Start 2P",Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: black;
+    text-shadow: 5px 5px 0px #27ae60;
+    padding: 10px;
+
+}
+
+p {
+    font-family: "Press Start 2P",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+}
+#buttons a {
+    align-content: space-between;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    height: 990px;
+    background-color: #27ae60;
+    text-shadow: 5px 5px white;
+    text-align: center;
+    border-bottom: 10px solid #7c5e99;
+}
+
+#skills h1 {
+    text-shadow: 2px 2px white;
+    padding: 20px;
+ }
+
+ #itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: auto;        
+ }
+
+ .box1 {
+    display: inline-flex;
+    margin-bottom: 40px;
+    align-items: center;
+ }
+
+ .box1 img {
+    width: 100px;
+    image-rendering: pixelated;
+    position: absolute;
+    margin-left: -15px;
+ }
+
+.box_level {
+    text-shadow: 3px 3px black;
+    border: 5px solid black;
+    width: 400px;
+    
+}
+
+.box_level p {
+    background-color: #7c5e99;    
+}
+
+#load p {
+    background-color: #fff;
+    color: #000;
+    text-shadow: none;
+}
+
+#iten1 {
+    display: flex;
 }
