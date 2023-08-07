@@ -63,7 +63,7 @@ a:hover {
 
 #info{
     display: flex;
-    background-image: url("/assets/background_home.jpg");
+    background-image: url("../assets/background_home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: space-between;
@@ -72,7 +72,7 @@ a:hover {
     height: 990px;
 }
 
-#back{
+#info img{
     width: 600px;
     height: 800px;
     margin: auto;
