@@ -72,7 +72,7 @@ a:hover {
     height: 990px;
 }
 
-#info img{
+#back{
     width: 600px;
     height: 800px;
     margin: auto;
@@ -132,7 +132,7 @@ p {
 #skills {
     display: flex;
     flex-direction: column;
-    height: 990px;
+    height: 910px;
     background-color: #27ae60;
     text-shadow: 5px 5px white;
     text-align: center;
