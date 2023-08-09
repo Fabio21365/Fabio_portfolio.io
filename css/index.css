@@ -1,3 +1,5 @@
+/* Header*/
+
 #logo {
     width: 60px;
     height: 60px;
@@ -15,6 +17,13 @@ header {
     border-bottom: 10px solid black;
     padding: 10px 20px;
     align-items: center;
+}
+
+header a::before {
+    content: "";
+    background-color: #7c5e99;
+    width: 10px;
+    height: 10px;
 }
 
 nav {
@@ -61,6 +70,9 @@ a:hover {
     
 }
 
+/* ________________________________________________________________________________ */
+/* Section Info*/
+
 #info{
     display: flex;
     background-image: url("../assets/background_home.jpg");
@@ -69,7 +81,7 @@ a:hover {
     justify-content: space-between;
     padding: 40px;
     border-bottom: 10px solid black;
-    height: 990px;
+    height: 810px;
 }
 
 #info img{
@@ -129,18 +141,22 @@ p {
     padding: 20px
 }
 
+/* ________________________________________________________________________________ */
+/* Section Skills */
+
 #skills {
     display: flex;
     flex-direction: column;
-    height: 910px;
+    height: fit-content;
     background-color: #27ae60;
-    text-shadow: 5px 5px white;
+    text-shadow: 5px 5px 0px white;
     text-align: center;
     border-bottom: 10px solid #7c5e99;
 }
 
 #skills h1 {
-    text-shadow: 2px 2px white;
+    color: white;
+    text-shadow: 5px 5px 0px black;
     padding: 20px;
  }
 
@@ -148,16 +164,17 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-block: auto;        
+    margin-block: auto;
+    margin: 50px;        
  }
 
- .box1 {
+ .box_logo_1 {
     display: inline-flex;
     margin-bottom: 40px;
     align-items: center;
  }
 
- .box1 img {
+ .box_logo_1 img {
     width: 100px;
     image-rendering: pixelated;
     position: absolute;
@@ -184,3 +201,117 @@ p {
 #iten1 {
     display: flex;
 }
+
+/* ________________________________________________________________________________ */
+/* Section Projetos */
+
+#projetos {
+    height: fit-content;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 10px solid #27ae60;  
+}
+
+#projetos h1 {
+    font-family: "Press Start 2P",Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 5px 5px 0px #27ae60;
+    padding-top: 20px;
+}
+
+#boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 50px;
+    
+
+}
+
+#boxes a::before {
+    content: "";
+    background-color: #000;
+    width: 0px;
+    height: 0px;
+}
+
+#boxes p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-shadow: 5px 5px 0px #27ae60;
+}
+a img {
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+/* ________________________________________________________________________________ */
+/* Section Sobre */
+
+#sobre {
+    height: 780px;
+    background-color: #7c5e99;
+    display: flex;
+    justify-content: center;
+    border-bottom: 10px solid #27ae60;
+}
+
+#sobre h1 {
+    font-family: "Press Start 2P",Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 5px 5px 0px #27ae60;
+    padding: 20px;
+}
+
+/* ________________________________________________________________________________ */
+/* Section Contatos */
+
+#contatos {
+    height: 910px;
+    background-color: #3a4042;
+    border-bottom: 10px solid #27ae60;
+    display: flex;
+    justify-content: center;
+}
+
+#contatos h1 {
+    font-family: "Press Start 2P",Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 5px 5px 0px #27ae60;
+    padding: 20px;
+}
+
+/* ________________________________________________________________________________ */
+/* Footer */
+
+footer {
+    height: 100px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer a img {
+    height: 40px;
+    width: 40px;
+}
+
+footer a::before {
+    content: "";
+    background-color: #000;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+/* ________________________________________________________________________________ */
+/* @Media */
