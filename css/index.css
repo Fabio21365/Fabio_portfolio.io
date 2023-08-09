@@ -3,9 +3,12 @@
 #logo {
     width: 60px;
     height: 60px;
+    align-items: center;
+    margin: -10px;
+    margin-left: -20px;
 }
 
-body{
+body {
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,7 +18,6 @@ header {
     justify-content: space-between;
     background-color: #7c5e99;
     border-bottom: 10px solid black;
-    padding: 10px 20px;
     align-items: center;
 }
 
@@ -40,6 +42,7 @@ a {
     text-decoration: none;
     margin-right: 30px;
     transition: transform 200ms linear;
+    padding: 20px;
 }
 
 a::before {
@@ -67,27 +70,26 @@ a:hover {
     background-color: #2ecc71;
     text-shadow: 5px 5px 0px #27ae60;
     transform: scale(1.08);
-    
 }
 
 /* ________________________________________________________________________________ */
 /* Section Info*/
 
-#info{
+#info {
     display: flex;
     background-image: url("../assets/background_home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: space-between;
-    padding: 40px;
+    padding: 20px;
     border-bottom: 10px solid black;
-    height: 810px;
+    height: auto;
 }
 
-#info img{
+#info img {
     width: 600px;
     height: 800px;
-    margin: auto;
+    margin-left: 50px;
     border-radius: 2%;
 }
 
@@ -95,9 +97,8 @@ a:hover {
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-right: auto;
-
+    justify-content: space-evenly;
+    margin: 100px;
 }
 
 #quadro {
@@ -105,7 +106,7 @@ a:hover {
     width: 700px;
     height: 120px;
     color: #ffffff;
-    padding: 20px;  
+    padding: 20px;
     box-shadow: 5px 5px 0px #000;
     text-align: left;
     display: inline-block;
@@ -113,26 +114,27 @@ a:hover {
     margin-bottom: 50px;
 }
 
-h1{
-    font-family: "Press Start 2P",Arial, Helvetica, sans-serif;
+h1 {
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 35px;
     color: black;
     text-shadow: 5px 5px 0px #27ae60;
     padding: 10px;
-
 }
 
 p {
-    font-family: "Press Start 2P",Arial, Helvetica, sans-serif;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #ffffff;
     padding: 10px;
 }
 
-#buttons{
+#buttons {
     display: flex;
     flex-direction: row;
+    margin-top: -100px;
 }
+
 #buttons a {
     align-content: space-between;
     width: 200px;
@@ -158,38 +160,37 @@ p {
     color: white;
     text-shadow: 5px 5px 0px black;
     padding: 20px;
- }
+}
 
- #itens {
+#itens {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-block: auto;
-    margin: 50px;        
- }
+    margin: 50px;
+}
 
- .box_logo_1 {
+.box_logo_1 {
     display: inline-flex;
     margin-bottom: 40px;
     align-items: center;
- }
+}
 
- .box_logo_1 img {
+.box_logo_1 img {
     width: 100px;
     image-rendering: pixelated;
     position: absolute;
     margin-left: -15px;
- }
+}
 
 .box_level {
     text-shadow: 3px 3px black;
     border: 5px solid black;
     width: 400px;
-    
 }
 
 .box_level p {
-    background-color: #7c5e99;    
+    background-color: #7c5e99;
 }
 
 #load p {
@@ -211,11 +212,11 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 10px solid #27ae60;  
+    border-bottom: 10px solid #27ae60;
 }
 
 #projetos h1 {
-    font-family: "Press Start 2P",Arial, Helvetica, sans-serif;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 35px;
     color: #fff;
     text-shadow: 5px 5px 0px #27ae60;
@@ -227,8 +228,6 @@ p {
     flex-flow: row wrap;
     justify-content: space-between;
     margin: 50px;
-    
-
 }
 
 #boxes a::before {
@@ -245,6 +244,7 @@ p {
     margin: 20px;
     text-shadow: 5px 5px 0px #27ae60;
 }
+
 a img {
     margin-top: 30px;
     width: 250px;
@@ -263,7 +263,7 @@ a img {
 }
 
 #sobre h1 {
-    font-family: "Press Start 2P",Arial, Helvetica, sans-serif;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 35px;
     color: #fff;
     text-shadow: 5px 5px 0px #27ae60;
@@ -282,7 +282,7 @@ a img {
 }
 
 #contatos h1 {
-    font-family: "Press Start 2P",Arial, Helvetica, sans-serif;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 35px;
     color: #fff;
     text-shadow: 5px 5px 0px #27ae60;
@@ -297,12 +297,16 @@ footer {
     background-color: #000;
     display: flex;
     justify-content: center;
-    
 }
 
 footer a img {
     height: 40px;
     width: 40px;
+}
+
+#email {
+    height: 40px;
+    width: 50px;
 }
 
 footer a::before {
