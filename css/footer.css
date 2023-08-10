@@ -1,0 +1,24 @@
+footer {
+    height: 100px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+footer a img {
+    height: 40px;
+    width: 40px;
+}
+
+#email {
+    height: 40px;
+    width: 50px;
+}
+
+footer a::before {
+    content: "";
+    background-color: #000;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
