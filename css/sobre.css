@@ -69,4 +69,13 @@ h1, h2{
     font-size: 13px;
     color: white;
     text-shadow: 5px 5px #000;  
+    line-height: 2;
+}
+
+p {
+    font-family: "Press Start 2p", Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: white;
+    padding-top: 20px;
+    line-height: 2;
 }
