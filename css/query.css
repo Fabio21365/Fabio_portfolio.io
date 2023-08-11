@@ -33,7 +33,8 @@
     }
 
     .box_logo_1 {
-        display: inline-flex;
+        display: flex;
+        flex-wrap: wrap;
         width: 300px;
         margin-bottom: 40px;
         align-items: center;
