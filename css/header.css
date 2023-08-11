@@ -8,14 +8,19 @@ header {
 }
 
 #logo {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
  
 #logo img {
      width: 200px;
 }
- 
+
+#menu {
+    justify-content: space-between;
+}
 #menu a {
+    display: inline-flex;
+    align-items: center;
      padding: 20px;
      text-decoration: none;
      color: white;

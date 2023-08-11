@@ -1,4 +1,4 @@
-@media (max-width: 740px) {
+@media (min-width: 310px) and (max-width: 768px) {
     #body {
         display: flex;
         flex-direction: column;
@@ -9,9 +9,8 @@
         width: 150px;
    }
 
-    #menu a {
-        margin-left: 50px;
-        justify-content: space-evenly;
+    #menu  {
+        flex-direction: column;
         line-height: 3;
     }
 
