@@ -1,0 +1,42 @@
+@media (max-width: 360px) {
+    #body {
+        display: flex;
+        flex-direction: column;
+        flex-flow: row wrap;
+    }
+
+    #logo img {
+        width: 150px;
+   }
+
+    #menu a {
+        margin-left: 50px;
+        line-height: 3;
+    }
+
+    #sobre {
+        flex-direction: column;
+    }
+
+    #foto {
+        padding: 15px;
+    }
+
+    #foto img {
+        width: 150px;
+        height: 200px;
+    }
+
+    #nome {
+        margin: 10px;
+        box-shadow: 5px 5px #27ae60;
+    }
+
+    .box_logo_1 {
+        display: inline-flex;
+        width: 300px;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    
+}
