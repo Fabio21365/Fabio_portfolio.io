@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border-bottom: 10px solid #27ae60;
 }
 
@@ -18,7 +19,7 @@
 #boxes {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin: 50px;
 }
 
