@@ -1,32 +1,33 @@
 #skills {
     display: flex;
     flex-direction: column;
-    height: fit-content;
     background-color: #27ae60;
     text-shadow: 5px 5px 0px white;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     border-bottom: 10px solid #7c5e99;
 }
 
 #skills h1 {
 
     text-shadow: 5px 5px 0px black;
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 20px;
 }
 
-#itens {
+#itens_sk {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     align-items: center;
-    margin-block: auto;
-    margin: 50px;
+    justify-itens: center;
 }
 
 .box_logo_1 {
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     align-items: center;
+    size-adjust: -150%;
 }
 
 .box_logo_1 img {
@@ -41,7 +42,7 @@
     color: white;
     text-shadow: 3px 3px black;
     border: 5px solid black;
-    width: 400px;
+    width: 200px;
 }
 
 .box_level p {

@@ -10,17 +10,17 @@
 
 #projetos h1 {
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 20px;
     color: #fff;
     text-shadow: 5px 5px 0px #27ae60;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 #boxes {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 50px;
+    margin: 20px;
 }
 
 #boxes a::before {
