@@ -20,7 +20,13 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    justify-itens: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.item {
+    align-items: center;
+    margin:  10px 20px;
 }
 
 .box_logo_1 {
@@ -42,7 +48,7 @@
     color: white;
     text-shadow: 3px 3px black;
     border: 5px solid black;
-    width: 200px;
+    min-width: 200px;
 }
 
 .box_level p {
@@ -56,8 +62,8 @@
     text-shadow: none;
 }
 
-#itens h2 {
-    margin-bottom: 10px;
+#itens_sk h2 {
+    margin: 10px;
 }
 
 
